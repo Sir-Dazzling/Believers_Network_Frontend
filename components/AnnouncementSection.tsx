@@ -26,7 +26,7 @@ export const AnnouncementSection = () =>
                                 </span>
                             </p>
                         </div>
-                        <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
+                        <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto sm:ml-2">
                             <Link href="#">
                                 <a className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md
                                     shadow-sm text-sm text-red-600 bg-white hover:bg-red-50">
