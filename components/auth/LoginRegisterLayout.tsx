@@ -27,7 +27,7 @@ const LoginRegistLayout: React.FC<Props> = ({
 }) =>
 {
     return (
-        <Layout title={title}>
+        <Layout className="" title={title}>
             <div className="flex min-h-screen justify-between">
                 <div className="lg:bg-gray-200 lg:block lg:w-3/4 relative hidden px-5 py-5">
                     <Link href={PAGES.HOME}>
