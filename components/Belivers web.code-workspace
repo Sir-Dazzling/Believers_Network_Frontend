@@ -1,10 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "..\\.."
+			"path": ".."
 		},
 		{
-			"path": "..\\..\\..\\Node\\emexup_v1"
+			"path": "..\\..\\..\\Node\\EMEXUP_WEBAPP_V1"
+		},
+		{
+			"path": "..\\..\\..\\algorism\\clubly\\clublyadmin"
 		}
 	]
 }

@@ -11,6 +11,7 @@
     "purge:css": "cross-env NODE_ENV=production yarn run build:css"
   },
   "dependencies": {
+    "@emotion/styled": "^11.1.5",
     "cross-env": "^7.0.3",
     "next": "10.0.5",
     "react": "17.0.1",
