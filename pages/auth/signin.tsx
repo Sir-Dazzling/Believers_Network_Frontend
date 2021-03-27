@@ -25,13 +25,11 @@ const Signin = () =>
 };
 
 const LeftSide = () => (
-    <>
-        <img
-            src="/images/login.svg"
-            alt="emexup logo"
-            className="mt-24"
-        />
-    </>
+    <img
+        src="/images/login.svg"
+        alt="emexup logo"
+        className="mt-24"
+    />
 );
 
 const SigninForm = () =>
@@ -111,8 +109,7 @@ const SigninForm = () =>
             <Button
                 isLoading={false}
                 type="red"
-                className="lg:bg-red-500 lg:p-3 lg:text-white w-full"
-            >
+                className="transition duration-500 transform hover:-translate-y-1 ease-in-out lg:bg-red-500 lg:p-3 lg:text-white w-full hover:bg-red-400">
                 Login
       </Button>
         </form>

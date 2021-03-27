@@ -1,4 +1,8 @@
 .spinner {
   height: 2rem;
   width: 2rem;
+  border-top: 4px darkred solid;
+  border-left: 4px darkred solid;
+  border-right: 4px white solid;
+  border-bottom: 4px white solid;
 }
