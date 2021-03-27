@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Layout from "../Layout";
+import Layout from "../layout";
 import { PAGES } from '../../helpers/PageNames';
 
 interface Props

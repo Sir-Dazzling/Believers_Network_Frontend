@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import { NavBar } from "../components/navbar/NavBar";
 import { HeadlineSection } from "../components/HeadlineSection";
 import { AnnouncementSection } from "../components/AnnouncementSection";
