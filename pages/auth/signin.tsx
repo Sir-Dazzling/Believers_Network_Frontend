@@ -26,7 +26,11 @@ const Signin = () =>
 
 const LeftSide = () => (
     <>
-        <h1>Left side</h1>
+        <img
+            src="/images/login.svg"
+            alt="emexup logo"
+            className="mt-24"
+        />
     </>
 );
 

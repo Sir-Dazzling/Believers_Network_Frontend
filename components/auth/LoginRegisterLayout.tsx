@@ -29,7 +29,7 @@ const LoginRegistLayout: React.FC<Props> = ({
     return (
         <Layout title={title}>
             <div className="flex min-h-screen justify-between">
-                <div className="lg:bg-red-500 lg:block lg:w-3/4 relative hidden px-5 py-5">
+                <div className="lg:bg-gray-200 lg:block lg:w-3/4 relative hidden px-5 py-5">
                     <Link href={PAGES.HOME}>
                         <a>
                             <img src="/images/logo.png" className="h-16" alt="Emexup logo" />
