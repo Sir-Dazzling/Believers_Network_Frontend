@@ -10,7 +10,6 @@ import InputField from "../../components/auth/InputField";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 // Enabling Swiper functionality
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
@@ -32,82 +31,67 @@ const Signup = () =>
 
 const LeftSide = () => (
     <div className="p-10">
-        <div className="swiper-container">
-            <Swiper
-                style={{
-                    width: 500
-                }}
-                navigation={{
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                }}
-                pagination={{
-                    clickable: true,
-                    el: ".swiper-pagination",
-                    type: "bullets",
-                }}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}>
-                <SwiperSlide>
-                    <img className="w-full h-96" src="/images/bible.svg" />
-                    <h1 className="px-10 font-bold mb-3">Welcome to the Believers Network</h1>
-                    <h1 className="px-10 text-sm">We provide an intuitive platform for making study of the word a much more blissful, interactive and life changing experience</h1>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className="w-full h-96" src="/images/teachings.svg" />
-                    <h1 className="px-10 font-bold mt-3 mb-3">Keep track of Daily/Weekly Topic(s).</h1>
-                    <h1 className="px-10 text-sm">We have great teachers of the word that work tirelessly to bring teachings to you, never to worry we wil provide reminder so you wont miss track of any of them</h1>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className="w-full h-96" src="/images/online_discussion.svg" />
-                    <h1 className="px-10 font-bold mt-3 mb-3">Online Community</h1>
-                    <h1 className="px-10 text-sm">Also feel free to like, dislike and comment on your fellow members posts, trust us you would love the social experience</h1>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className="w-full h-96" src="/images/word_for_the_day.svg" />
-                    <h1 className="px-10 font-bold mt-3 mb-3">Word for the day</h1>
-                    <h1 className="px-10 text-sm">How can we ever forget word for the day? Lol we also have a Bible section in your personal dashboard where you can read the bible.(*King James, NIV only supported for now)</h1>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className="w-full h-96" src="/images/audio.svg" />
-                    <h1 className="px-10 font-bold mt-3 mb-3">Access Past messages (Audio/Video)</h1>
-                    <h1 className="px-10 text-sm">Need to access / download our past messages , we have that covered we have a online streaming service and also a cloud where you can access those important recordings</h1>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img className="w-full h-96" src="/images/rocket.svg" />
-                    <h1 className="px-10 font-bold mt-3 mb-3">What are you waiting for?</h1>
-                    <h1 className="px-10 text-sm">What yoou previously read are just small pieces of the experience you have for you, create an account and get started now 😇</h1>
-                </SwiperSlide>
+        <Swiper
+            style={{
+                width: 500
+            }}
+            navigation={{
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            }}
+            pagination={{
+                clickable: true,
+                el: ".swiper-pagination",
+                type: "bullets",
+            }}
+            onSlideChange={() => console.log("slide change")}
+            onSwiper={(swiper) => console.log(swiper)}>
+            <SwiperSlide>
+                <img className="w-full h-96" src="/images/bible.svg" />
+                <h1 className="px-10 font-bold mb-3">Welcome to the Believers Network</h1>
+                <h1 className="px-10 text-sm">We provide an intuitive platform for making study of the word a much more blissful, interactive and life changing experience</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img className="w-full h-96" src="/images/teachings.svg" />
+                <h1 className="px-10 font-bold mt-3 mb-3">Keep track of Daily/Weekly Topic(s).</h1>
+                <h1 className="px-10 text-sm">We have great teachers of the word that work tirelessly to bring teachings to you, never to worry we wil provide reminder so you wont miss track of any of them</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img className="w-full h-96" src="/images/online_discussion.svg" />
+                <h1 className="px-10 font-bold mt-3 mb-3">Online Community</h1>
+                <h1 className="px-10 text-sm">Also feel free to like, dislike and comment on your fellow members posts, trust us you would love the social experience</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img className="w-full h-96" src="/images/word_for_the_day.svg" />
+                <h1 className="px-10 font-bold mt-3 mb-3">Word for the day</h1>
+                <h1 className="px-10 text-sm">How can we ever forget word for the day? Lol we also have a Bible section in your personal dashboard where you can read the bible.(*King James, NIV only supported for now)</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img className="w-full h-96" src="/images/audio.svg" />
+                <h1 className="px-10 font-bold mt-3 mb-3">Access Past messages (Audio/Video)</h1>
+                <h1 className="px-10 text-sm">Need to access / download our past messages , we have that covered we have a online streaming service and also a cloud where you can access those important recordings</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img className="w-full h-96" src="/images/rocket.svg" />
+                <h1 className="px-10 font-bold mt-3 mb-3">What are you waiting for?</h1>
+                <h1 className="px-10 text-sm">What yoou previously read are just small pieces of the experience you have for you, create an account and get started now 😇</h1>
+            </SwiperSlide>
 
 
-                <div className="flex justify-between h-7">
-                    <div className="swiper-pagination px-10"></div>
-                    <div className="navigations-controls w-full">
-                        <div className="swiper-button-prev" style={{
-                            color: "red",
-                            paddingRight: 20
-                        }}></div>
-                        <div className="swiper-button-next" style={{
-                            color: "rosybrown",
-                            paddingLeft: 20
-                        }}></div>
-                    </div>
+            <div className="flex justify-between h-7">
+                <div className="swiper-pagination px-10"></div>
+                <div className="navigations-controls w-full">
+                    <div className="swiper-button-prev" style={{
+                        color: "red",
+                        paddingRight: 20
+                    }}></div>
+                    <div className="swiper-button-next" style={{
+                        color: "rosybrown",
+                        paddingLeft: 20
+                    }}></div>
                 </div>
-            </Swiper>
-        </div>
-        {/* <div className="flex flex-row justify-evenly
-         border border-black">
-            <p className="w-3">left</p>
-            <img
-                src="/images/login.svg"
-                alt="emexup logo"
-                className="w-full"
-            />
-            <p>right</p>
-        </div> */}
-
-        {/* <h1 className="px-10 font-bold mb-3">Welcome to the Believers Network</h1>
-        <h1 className="px-10 text-sm ">We provide an intuitive platform for making study of the word a much more blissful, interactive and life changing experience</h1> */}
+            </div>
+        </Swiper>
     </div>
 );
 

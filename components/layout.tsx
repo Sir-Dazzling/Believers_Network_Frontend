@@ -4,7 +4,7 @@ import React from "react";
 interface Props 
 {
   title?: String;
-  className: string;
+  className?: string;
 }
 
 const Layout: React.FC<Props> = ({ children, title, className }) =>
