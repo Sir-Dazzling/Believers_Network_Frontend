@@ -106,7 +106,8 @@ const VerifyForm = () =>
                 //   isLoading={verifyEmailVerificationTokenMutation?.isLoading}
                 isLoading={false}
                 onClick={handleVerifyToken}
-                className="w-11/12 max-w-md"
+                className="w-11/12 max-w-md transition duration-500 transform hover:-translate-y-1 ease-in-out
+                hover:bg-red-400"
                 type="red">
                 Verify Email
         </Button>
