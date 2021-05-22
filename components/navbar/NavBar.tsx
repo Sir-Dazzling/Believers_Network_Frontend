@@ -27,16 +27,16 @@ export const NavBar = () =>
           </div>
           <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 ">
             <Link href="#">
-              <a className="font-medium text-gray-500 hover:text-gray-900">Product</a>
+              <a className="font-medium text-gray-500 hover:text-gray-900">About Us</a>
             </Link>
             <Link href="#">
-              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Features</a>
+              <a className="font-medium text-gray-500 hover:text-gray-900">Upcoming Events</a>
             </Link>
             <Link href="#">
-              <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Company</a>
+              <a className="font-medium text-gray-500 hover:text-gray-900">Archives</a>
             </Link>
             <Link href="/auth/signin">
-              <a className="font-medium text-red-600 hover:text-red-500">Log in</a>
+              <a className="font-medium text-red-600 hover:text-red-500">Sign in</a>
             </Link>
           </div>
         </nav>

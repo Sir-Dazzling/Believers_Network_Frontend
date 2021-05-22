@@ -1,4 +1,5 @@
 import '../styles/globals.css';
+import '../styles/cta_style.css';
 import "swiper/swiper.scss";
 import "swiper/swiper-bundle.css";
 import "swiper/components/navigation/navigation.scss";
